@@ -1,0 +1,282 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     10273,        273]
+NotebookOptionsPosition[      9807,        254]
+NotebookOutlinePosition[     10147,        269]
+CellTagsIndexPosition[     10104,        266]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"PolyhedronData", "[", "\"\<TriangularDipyramid\>\"", "]"}]], "Input",\
+
+ CellChangeTimes->{{3.521998665836216*^9, 3.521998670086996*^9}},
+ CellID->310273479],
+
+Cell[BoxData[{
+ RowBox[{"tetrahedron", "=", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"EdgeForm", "[", 
+       RowBox[{"{", 
+        RowBox[{"Thick", ",", "Black"}], "}"}], "]"}], ",", 
+      RowBox[{"Opacity", "[", ".9", "]"}], ",", "Gray", ",", 
+      RowBox[{"Specularity", "[", 
+       RowBox[{"White", ",", "5"}], "]"}], ",", 
+      RowBox[{"Lighting", "\[Rule]", "\"\<Neutral\>\""}], ",", 
+      RowBox[{"PolyhedronData", "[", 
+       RowBox[{"\"\<Tetrahedron\>\"", ",", "\"\<Faces\>\""}], "]"}]}], "}"}], 
+    ",", 
+    RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
+    RowBox[{"ViewPoint", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"3", ",", ".4", ",", "0"}], "}"}]}]}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"octahedron", "=", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"EdgeForm", "[", 
+       RowBox[{"{", 
+        RowBox[{"Thick", ",", "Black"}], "}"}], "]"}], ",", 
+      RowBox[{"Opacity", "[", ".9", "]"}], ",", "Gray", ",", 
+      RowBox[{"Specularity", "[", 
+       RowBox[{"White", ",", "5"}], "]"}], ",", 
+      RowBox[{"Lighting", "\[Rule]", "\"\<Neutral\>\""}], ",", 
+      RowBox[{"PolyhedronData", "[", 
+       RowBox[{"\"\<Octahedron\>\"", ",", "\"\<Faces\>\""}], "]"}]}], "}"}], 
+    ",", 
+    RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
+    RowBox[{"ViewPoint", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{".7", ",", "2", ",", ".4"}], "}"}]}]}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"icosahedron", "=", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"EdgeForm", "[", 
+       RowBox[{"{", 
+        RowBox[{"Thick", ",", "Black"}], "}"}], "]"}], ",", 
+      RowBox[{"Opacity", "[", ".9", "]"}], ",", "Gray", ",", 
+      RowBox[{"Specularity", "[", 
+       RowBox[{"White", ",", "5"}], "]"}], ",", 
+      RowBox[{"Lighting", "\[Rule]", "\"\<Neutral\>\""}], ",", 
+      RowBox[{"PolyhedronData", "[", 
+       RowBox[{"\"\<Icosahedron\>\"", ",", "\"\<Faces\>\""}], "]"}]}], "}"}], 
+    ",", 
+    RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
+    RowBox[{"ViewPoint", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"2", ",", "1.4", ",", ".7"}], "}"}]}]}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"cube", "=", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"EdgeForm", "[", 
+       RowBox[{"{", 
+        RowBox[{"Thick", ",", "Black"}], "}"}], "]"}], ",", 
+      RowBox[{"Opacity", "[", ".9", "]"}], ",", "Gray", ",", 
+      RowBox[{"Specularity", "[", 
+       RowBox[{"White", ",", "5"}], "]"}], ",", 
+      RowBox[{"Lighting", "\[Rule]", "\"\<Neutral\>\""}], ",", 
+      RowBox[{"PolyhedronData", "[", 
+       RowBox[{"\"\<Cube\>\"", ",", "\"\<Faces\>\""}], "]"}]}], "}"}], ",", 
+    RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
+    RowBox[{"ViewPoint", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"1.5", ",", "2", ",", "1"}], "}"}]}]}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"dodecahedron", "=", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"EdgeForm", "[", 
+       RowBox[{"{", 
+        RowBox[{"Thick", ",", "Black"}], "}"}], "]"}], ",", 
+      RowBox[{"Opacity", "[", ".9", "]"}], ",", "Gray", ",", 
+      RowBox[{"Specularity", "[", 
+       RowBox[{"White", ",", "5"}], "]"}], ",", 
+      RowBox[{"Lighting", "\[Rule]", "\"\<Neutral\>\""}], ",", 
+      RowBox[{"PolyhedronData", "[", 
+       RowBox[{"\"\<Dodecahedron\>\"", ",", "\"\<Faces\>\""}], "]"}]}], "}"}],
+     ",", 
+    RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
+    RowBox[{"ViewPoint", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"2", ",", ".2", ",", ".6"}], "}"}]}]}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"triangulardipyramid", "=", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"EdgeForm", "[", 
+       RowBox[{"{", 
+        RowBox[{"Thick", ",", "Black"}], "}"}], "]"}], ",", 
+      RowBox[{"Opacity", "[", ".9", "]"}], ",", "Gray", ",", 
+      RowBox[{"Specularity", "[", 
+       RowBox[{"White", ",", "5"}], "]"}], ",", 
+      RowBox[{"Lighting", "\[Rule]", "\"\<Neutral\>\""}], ",", 
+      RowBox[{"PolyhedronData", "[", 
+       RowBox[{"\"\<TriangularDipyramid\>\"", ",", "\"\<Faces\>\""}], "]"}]}],
+      "}"}], ",", 
+    RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
+    RowBox[{"ViewPoint", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"2", ",", ".2", ",", ".3"}], "}"}]}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.521992741331545*^9, 3.521992748536787*^9}, {
+   3.521992818077602*^9, 3.5219928727643023`*^9}, {3.521992990510309*^9, 
+   3.521993016331121*^9}, {3.521993074287403*^9, 3.5219930950265493`*^9}, {
+   3.521993229967805*^9, 3.5219932639402437`*^9}, {3.5220616435711603`*^9, 
+   3.5220616546171217`*^9}, 3.522061685706284*^9, {3.522061719555853*^9, 
+   3.52206175959369*^9}, {3.522158853922488*^9, 3.522158903638371*^9}, {
+   3.5221593625484333`*^9, 3.522159398397593*^9}}],
+
+Cell[BoxData[{
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<tetrahedron.jpg\>\"", ",", "tetrahedron", ",", 
+   RowBox[{"ImageResolution", "\[Rule]", "300"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<octahedron.jpg\>\"", ",", "octahedron", ",", 
+   RowBox[{"ImageResolution", "\[Rule]", "300"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<icosahedron.jpg\>\"", ",", "icosahedron", ",", 
+   RowBox[{"ImageResolution", "\[Rule]", "300"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<dodecahedron.jpg\>\"", ",", "dodecahedron", ",", 
+   RowBox[{"ImageResolution", "\[Rule]", "300"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<cube.jpg\>\"", ",", "cube", ",", 
+   RowBox[{"ImageResolution", "\[Rule]", "300"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{
+  "\"\<triangulardipyramid.jpg\>\"", ",", "triangulardipyramid", ",", 
+   RowBox[{"ImageResolution", "\[Rule]", "300"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.522061768090968*^9, 3.52206186463179*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Graphics3D", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"EdgeForm", "[", 
+        RowBox[{"{", 
+         RowBox[{"Thick", ",", "Black"}], "}"}], "]"}], ",", 
+       RowBox[{"Opacity", "[", ".9", "]"}], ",", "Gray", ",", 
+       RowBox[{"Specularity", "[", 
+        RowBox[{"White", ",", "5"}], "]"}], ",", 
+       RowBox[{"Lighting", "\[Rule]", "\"\<Neutral\>\""}], ",", 
+       RowBox[{"PolyhedronData", "[", 
+        RowBox[{"\"\<TriangularDipyramid\>\"", ",", "\"\<Faces\>\""}], 
+        "]"}]}], "}"}], ",", 
+     RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
+     RowBox[{"ViewPoint", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y", ",", "z"}], "}"}]}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", "1.3"}], "}"}], ",", "0", ",", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"y", ",", "0"}], "}"}], ",", "0", ",", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"z", ",", "2"}], "}"}], ",", "0", ",", "2"}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.521984148088975*^9, 3.5219841522952337`*^9}, {
+   3.521984297453017*^9, 3.521984394811398*^9}, {3.521984432489545*^9, 
+   3.521984452828114*^9}, 3.521984484337237*^9, {3.521984523874853*^9, 
+   3.521984557951618*^9}, {3.521984588959055*^9, 3.521984692006455*^9}, 
+   3.5219851499289722`*^9, {3.521985403752817*^9, 3.5219855402938223`*^9}, {
+   3.521992759745385*^9, 3.5219927701525593`*^9}, {3.521992891976121*^9, 
+   3.521992928245154*^9}, {3.5219930328441153`*^9, 3.5219930334937553`*^9}, {
+   3.5219931250954237`*^9, 3.5219931286839733`*^9}, {3.52206157240517*^9, 
+   3.52206157641905*^9}, {3.522061667479265*^9, 3.522061673702791*^9}, 
+   3.522158924211459*^9}],
+
+Cell[BoxData[
+ RowBox[{"cubeShadow", "=", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"EdgeForm", "[", 
+       RowBox[{"{", 
+        RowBox[{"Thick", ",", "Black"}], "}"}], "]"}], ",", 
+      RowBox[{"Opacity", "[", "0", "]"}], ",", "Gray", ",", 
+      RowBox[{"Specularity", "[", 
+       RowBox[{"White", ",", "5"}], "]"}], ",", 
+      RowBox[{"Lighting", "\[Rule]", "\"\<Neutral\>\""}], ",", 
+      RowBox[{"PolyhedronData", "[", 
+       RowBox[{"\"\<Cube\>\"", ",", "\"\<Faces\>\""}], "]"}]}], "}"}], ",", 
+    RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
+    RowBox[{"ViewPoint", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"1.5", ",", "2", ",", "1"}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{
+  3.522158761794078*^9, {3.522158823392044*^9, 3.522158838214933*^9}, {
+   3.522158963078611*^9, 3.522158964115654*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<cubeShadow.jpg\>\"", ",", "cubeShadow", ",", 
+   RowBox[{"ImageResolution", "\[Rule]", "300"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5221590034047403`*^9, 3.522159012010893*^9}}]
+},
+WindowSize->{1270, 990},
+WindowMargins->{{1321, Automatic}, {Automatic, 24}},
+FrontEndVersion->"7.0 for Linux x86 (64-bit) (February 25, 2009)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 181, 4, 32, "Input",
+ CellID->310273479],
+Cell[729, 26, 4992, 125, 319, "Input"],
+Cell[5724, 153, 1112, 25, 143, "Input"],
+Cell[6839, 180, 1849, 43, 77, "Input"],
+Cell[8691, 225, 873, 21, 55, "Input"],
+Cell[9567, 248, 236, 4, 32, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

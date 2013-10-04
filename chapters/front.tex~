@@ -1,0 +1,113 @@
+\pagenumbering{gobble}
+
+
+\title{
+\textbf{\textsf{
+\Huge Reflections on Mathematics \\
+\Large Math 1118: Spring 2013
+}}}
+\author{}
+\date{}
+\maketitle
+
+
+
+\begin{abstract}
+Copyright \copyright~2012 Bart Snapp.
+
+\vspace{.5cm}
+
+\noindent
+This work is licensed under the Creative Commons:
+\begin{center}
+Attribution-NonCommercial-ShareAlike License 
+\end{center}
+To view a copy of this license, visit
+\[
+\texttt{http://creativecommons.org/licenses/by-nc-sa/3.0/}
+\]
+
+\vspace{.5cm}
+
+\noindent This document was typeset on \today.
+
+\end{abstract}
+
+
+
+\chapter*{Preface}
+
+
+These notes are designed with architecture and design students in
+mind.  It is our hope that the reader will find these notes both
+interesting and challenging.  In particular, there is an emphasis on
+the ability to communicate mathematical ideas.  Three goals of these
+notes are:
+\begin{itemize}
+\item To enrich the reader's understanding of geometry and algebra. 
+We hope to show the reader that geometry and algebra are deeply
+connected.
+\item To place an emphasis on problem solving. The reader will be exposed 
+to problems that ``fight-back.'' Worthy minds such as yours deserve
+worthy opponents. Too often mathematics problems fall after a single
+``trick.'' Some worthwhile problems take time to solve and cannot be
+done in a single sitting.
+\item To challenge the common view that mathematics is a body of knowledge 
+to be memorized and repeated. The art and science of doing mathematics
+is a process of reasoning and personal discovery followed by
+justification and explanation. We wish to convey this to the reader,
+and sincerely hope that the reader will pass this on to others as
+well.
+\end{itemize}
+In summary---you, the reader, must become a doer of mathematics.  To
+this end, many questions are asked in the text that follows. Sometimes
+these questions are answered, other times the questions are left for
+the reader to ponder. To let the reader know which questions are left
+for cogitation, a large question mark is displayed:
+\QM
+The instructor of the course will address some of these questions. If
+a question is not discussed to the reader's satisfaction, then I
+encourage the reader to put on a thinking-cap and think, think, think!
+If the question is still unresolved, go to the World Wide Web and
+search, search, search!
+
+This document is open-source. It is licensed under the Creative
+Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)
+License. Loosely speaking, this means that this document is available
+for free. Anyone can get a free copy of this document (source or PDF)
+from the following site:
+\[
+\texttt{http://www.math.osu.edu/\~{}snapp/1118/}
+\]
+Please report corrections, suggestions, gripes, complaints, and
+criticisms to Bart Snapp at: \texttt{snapp@math.osu.edu}
+
+
+\section*{Thanks and Acknowledgments}
+
+A brief history of this document: In 2009, Greg Williams, a Master of
+Arts in Teaching student at Coastal Carolina University, worked with
+Bart Snapp to produce an early draft of the chapter on isometries. In
+the summer and fall of 2011, Bart Snapp wrote the remaining chapters of this
+set of notes. 
+
+Much thanks goes to Herb Clemens, Vic Ferdinand, Betsy McNeal, and
+Daniel Shapiro who introduced me to ideas which have been used in this
+course.
+
+
+
+\tableofcontents
+
+
+
+
+
+
+
+
+
+
+
+
+

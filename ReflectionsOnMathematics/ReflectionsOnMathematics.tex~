@@ -1,0 +1,251 @@
+\documentclass[twoside,titlepage]{report}
+
+
+\usepackage{microtype,amssymb,amsmath,amsfonts,amsthm,fancyhdr,graphicx}
+\usepackage{ipad}
+
+%\usepackage{showkeys} %%% This package will show you your labels
+                       %%% and should be commented out for the 
+                       %%% final print out.
+\usepackage{makeidx} %%% gives us our groovy index
+%\usepackage[noDcommand]{kpfonts}
+
+\makeindex
+
+%\usepackage{layout} %%% Use command \layout in document to see margins
+%%% Use package mathpazo to get another font
+
+%%% These margins are set for 10 pt font size. 
+%%% while some may find them to be too large, they 
+%%% are set so that no more than 72 characters will
+%%% be on any line.  This will help the readability 
+%%% of the document.  If the font size is ever increased
+%%% then the margins should be increased a bit too.
+\oddsidemargin 62pt
+\evensidemargin 62pt
+\textwidth 345pt
+\headheight 14pt
+
+
+
+
+%%% Header and Footer Options
+\renewcommand{\headrulewidth}{0.0pt} %%% this takes out the line 
+%%%
+%\rhead[]{\textsl{\leftmark}}  %%%
+%\rfoot[]{\thepage}            %%% Options for 2 sided documents
+%\lhead[\textsl{\rightmark}]{} %%%
+%\lfoot[\thepage]{}            %%%
+%%%
+\lhead[\textsl{\rightmark}]{\textsl{\leftmark}} %%% Options for 1 sided documents
+\cfoot[]{}                      %%% With typing on the *left* page
+\rhead[]{}                                      %%% 
+%%%
+\cfoot[\thepage]{\thepage} %%% needed for both types of documents
+%%% End Header and Footer Options
+
+
+%%% This sets how the enumerate command works
+\renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
+\renewcommand{\labelenumi}{\theenumi}
+
+%%% This next bit of code defines all our theorem environments
+\newtheoremstyle{SlantTheorem}{\topsep}{\topsep}%%% space between body and thm
+		{\slshape}                      %%% Thm body font
+		{}                              %%% Indent amount (empty = no indent)
+		{\bfseries\sffamily}            %%% Thm head font
+		{}                              %%% Punctuation after thm head
+		{3ex}                           %%% Space after thm head
+		{\thmname{#1}\thmnumber{ #2}\thmnote{ \bfseries(#3)}}%%% Thm head spec
+\theoremstyle{SlantTheorem}
+\newtheorem{thm}{Theorem}
+\newtheorem*{para}{Paradox}
+\newtheorem*{con}{Construction}
+\newtheorem*{conj}{Conjecture}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem*{war}{WARNING}
+\newtheorem*{eg}{Example}
+
+\newtheoremstyle{problem}{\topsep}{\topsep}%%% space between body and thm
+		{}                      %%% Thm body font
+		{}                              %%% Indent amount (empty = no indent)
+		{\bfseries}            %%% Thm head font
+		{)}                    %%% Punctuation after thm head
+		{ }                           %%% Space after thm head
+		{\thmnumber{#2}\thmnote{ \bfseries (#3)}}%%% Thm head spec
+\theoremstyle{problem}
+\newtheorem{prob}{}[section]
+\renewcommand{\theprob}{\arabic{prob}}
+
+\newtheoremstyle{Definition}
+{\topsep}{\topsep}{}{}{\sffamily\bfseries}{}{3ex}{}
+\theoremstyle{Definition}
+\newtheorem*{dfn}{Definition}
+
+\newtheoremstyle{Exercises}
+{\topsep}{\topsep}{}{}{\bfseries}{}{3ex}{}
+\theoremstyle{Exercises}
+\newtheorem*{ques}{Question}
+
+
+\usepackage{array}
+\setlength{\extrarowheight}{0cm}
+\newdimen\digitwidth
+\settowidth\digitwidth{9}
+\def~{\hspace{\digitwidth}}
+\def\divrule#1#2{
+\noalign{\moveright#1\digitwidth
+\vbox{\hrule width#2\digitwidth}}}
+
+
+
+%%% This bit of code gives us our nice proof environment.
+\renewenvironment{proof}[1][\proofname]{\begin{trivlist}\item[\hskip \labelsep \itshape \bfseries #1{}\hspace{2ex}]}
+{\qed\end{trivlist}}
+%%%
+
+%%% This set of code gives us the unnumbered footnotes
+\long\def\symbolfootnote[#1]#2{\begingroup\def\thefootnote{\fnsymbol{footnote}}
+\footnote[#1]{#2}\endgroup}
+
+
+
+%%% This set of code is all of our user defined commands
+\newcommand{\bysame}{\mbox{\rule{3em}{.4pt}}\,}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Zt}{\mathcal{Z}_\mat{T}}
+\newcommand{\Zg}{\mathcal{Z}_\mat{G}}
+\newcommand{\Zgf}{\mathcal{Z}_{\mat{G},\mat{F}}}
+\newcommand{\Ztf}{\mathcal{Z}_{\mat{T},\mat{F}}}
+\newcommand{\Ztr}{\mathcal{Z}_{\mat{T},\mat{R}}}
+\newcommand{\Zgr}{\mathcal{Z}_{\mat{G},\mat{R}}}
+\newcommand{\Ztfr}{\mathcal{Z}_{\mat{T},\mat{F},\mat{R}}}
+\newcommand{\R}{\mathcal R}
+\newcommand{\D}{\mathcal D}
+\newcommand{\F}{\mathcal F}
+\newcommand{\C}{\mathbb C}
+\newcommand{\ph}{\varphi}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\aph}{\alpha}
+\newcommand{\QM}{\begin{center}{\huge\textbf{?}}\end{center}}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\a}{\wedge}
+\renewcommand{\v}{\vee}
+\renewcommand{\l}{\ell}
+\renewcommand{\subset}{\subseteq}
+\renewcommand{\supset}{\supseteq}
+\renewcommand{\emptyset}{\varnothing}
+\newcommand{\xto}{\xrightarrow}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\renewcommand{\bibname}{References and Further Reading}
+\renewcommand{\abstractname}{Distributing this Document}
+\renewcommand{\bar}{\protect\overline}
+\renewcommand{\hat}{\protect\widehat}
+\renewcommand{\tilde}{\widetilde}
+\renewcommand{\star}[2]{\left\{\frac{#1}{#2}\right\}}
+\newcommand{\iso}{\simeq}
+\newcommand{\problems}{\subsection*{Problems for Section~\thesection}\hrule\vspace{1ex}}
+\newcommand{\tri}{\triangle}
+
+
+\newcommand{\mat}{\mathsf}
+\renewcommand{\vec}{\mathbf}
+%\newcommand{\leftexp}[2]{{\vphantom{#2}}^{#1}{#2}}
+
+
+
+
+\begin{document}
+
+%%%% Front matter
+\input{../chapters/front}
+%%%%
+\newpage
+\pagenumbering{arabic}
+\pagestyle{fancy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% Sections to be included %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{../chapters/isometries}
+
+%\input{../chapters/frieze}
+\input{../chapters/origami}
+
+\input{../chapters/dimension}
+
+\input{../chapters/string}
+
+
+
+
+
+\appendix
+
+\renewcommand{\theenumi}{$(\mathrm{\alph{enumi}})$}
+\renewcommand{\labelenumi}{\theenumi}
+\chapter{Activities}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+
+\input{../chapters/appendix/whatIsAnIso}
+
+\input{../chapters/appendix/inverseMapping}
+
+\input{../chapters/appendix/biggerApt}
+
+\input{../chapters/appendix/D8}
+
+\input{../chapters/appendix/stairs}
+
+\input{../chapters/appendix/symmetries}
+
+\input{../chapters/appendix/refTranslations}
+
+\input{../chapters/appendix/reflections}
+
+\input{../chapters/appendix/parabola}
+
+\input{../chapters/appendix/orbits}
+
+\input{../chapters/appendix/eulerPhiStars}
+
+\input{../chapters/appendix/envelopesCurves}
+
+\input{../chapters/appendix/louieTri}
+
+\input{../chapters/appendix/funkyShapes}
+
+%\input{../chapters/appendix/louieRegPoly}
+
+\input{../chapters/appendix/reptiles}
+
+\input{../chapters/appendix/pinwheel}
+
+\input{../chapters/appendix/netsOfPolyhedra}
+
+\input{../chapters/appendix/cone}
+
+\input{../chapters/appendix/volume}
+
+\input{../chapters/appendix/pitch}
+
+\input{../chapters/appendix/paintedCubes}
+
+\input{../chapters/appendix/eulerChar}
+
+\input{../chapters/appendix/hyperplanes}
+
+%Un-used activities
+
+\input{../chapters/appendix/someoneElse}
+
+\input{../chapters/appendix/linesAndParallel}
+
+
+
+%%%% Index and References
+\input{../chapters/back}
+%%%%
+\end{document}

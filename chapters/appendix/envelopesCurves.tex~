@@ -1,0 +1,73 @@
+\newpage
+\section{Rep-Tiles}
+
+A \textbf{rep-tile}\index{rep-tile} is a shape that can be dissected
+into smaller copies of itself. Conversely, you could use several
+copies of a given rep-tile to make a larger version of itself.
+
+\begin{prob}
+Show that the following polygons are rep-tiles:
+\[
+\includegraphics{../graphics/reptile1.pdf}
+\]
+\end{prob}
+
+\begin{prob}
+For each rep-tile above, compute the perimeter and area of the
+original and larger polygons.
+\end{prob}
+
+
+\begin{prob}
+Explain how you know that any rep-tile will tessellate the plane.
+\end{prob}
+
+\begin{prob}
+Give an example of a polygon that tessellates the plane that is not a
+rep-tile.
+\end{prob}
+
+
+
+\begin{prob}
+Show that the following polygons are rep-tiles:
+\[
+\includegraphics{../graphics/reptile2.pdf}
+\]
+\end{prob}
+
+
+\begin{prob}
+For each rep-tile above, compute the perimeter and area of the
+original and larger polygons.
+\end{prob}
+
+
+\break
+
+\begin{prob}
+Show that the following polygons are rep-tiles:
+\[
+\includegraphics{../graphics/reptile3.pdf}
+\]
+\end{prob}
+
+\begin{prob}
+For each rep-tile above, compute the perimeter and area of the
+original and larger polygons.
+\end{prob}
+
+\begin{prob}
+Every tessellation made by rep-tiles will have \index{symmetry of
+scale}\textbf{symmetry of scale}. What does it mean to have \textit{symmetry of scale}?
+\end{prob}
+
+\begin{prob}
+Consider the tessellations made by rep-tiles you've seen so far. What
+other symmetries do they have?
+\end{prob}
+
+\begin{prob}
+Do you think you can have a tessellation that has symmetry of scale
+but no other symmetries?
+\end{prob}

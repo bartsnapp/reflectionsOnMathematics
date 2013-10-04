@@ -1,0 +1,69 @@
+\newpage
+\section{Are You Getting Stairs?} 
+                                  
+
+Most building codes have very specific restrictions on how a staircase
+can be designed. Here are typical restrictions:
+\begin{enumerate}
+\item The stair-step height can be at most $7\frac{3}{4}''$. 
+\item The stair-step depth must be at least $10''$.
+\item These dimensions cannot not change (in real-life there is a minimum tolerance for variance in these dimensions). 
+\end{enumerate}
+
+Let's lay some stairs! While there are several approaches to this
+problem, I'm going to suggest we use the following friendly matrix:
+\[
+\mat{D}_{s,t}= 
+\begin{bmatrix}
+s & 0 & 0 \\
+0 & t & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+\]
+This is a geometric transformation that will dilate (scale) a picture
+by a factor of $s$ in the horizontal direction and a factor of $t$ in
+the vertical direction. We'll use this to transform a ``generic'' stair case of $n$ stairs to fit our needs:
+\[
+image 
+\]
+The upshot is that in essence, to lay a staircase of $n$ stairs that
+is up to code in a space that is $w$ feet wide and $h$ feet tall, you
+must solve the following equation:
+\[
+\mat{D}_{s,t}
+\begin{bmatrix}
+n \\
+n \\
+1
+\end{bmatrix}
+= 
+\begin{bmatrix}
+w \\
+h \\
+1
+\end{bmatrix}
+\]
+where 
+$s\le \frac{31}{48}$ and $t\ge \frac{5}{6}$.
+
+\begin{prob}
+Where do the numbers 
+\[
+\frac{31}{48}\qquad\text{and}\qquad \frac{5}{6}
+\]
+come from?
+\end{prob}
+
+\begin{prob}
+\end{prob}
+
+\begin{prob}
+\end{prob}
+
+\begin{prob}
+\end{prob}
+
+
+\begin{prob}
+Smart Sam says, he doesn't need to solve this problem this way. Instead\dots 
+\end{prob}

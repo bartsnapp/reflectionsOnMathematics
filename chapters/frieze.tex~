@@ -1,0 +1,700 @@
+\chapter{Frieze Patterns}
+
+\begin{quote}
+In this universe, there's only one absolute\dots  everything freezes!
+
+\hfill---Mr.\ Freeze
+\end{quote}
+
+
+\section{Design in a Line}
+
+In design and architecture, a \index{frieze pattern}\textit{frieze}, pronounced
+``freeze,'' is a horizontal band that is found near the ceiling or
+roof. It is often decorated with a repeating design. Let's see some examples:
+\[
+\includegraphics{../graphics/fpfrieze.pdf}
+\]
+Frieze patterns often have symmetry in their structure. In this chapter,
+we will study this symmetry. At this point we will refrain from giving
+a rigorous definition of a \textit{frieze pattern}. Instead, this will
+be a result of our work in this chapter.
+
+
+\break
+
+\subsection{Symmetries}
+
+\subsection*{Translations}\index{translation}
+
+Perhaps the most apparent symmetry that frieze patters can exhibit is
+symmetry through \textit{horizontal translations}:
+\[
+\includegraphics{../graphics/fptrans.pdf}
+\]
+We will not only insist that a frieze pattern always have
+translational symmetry, but we will also insist that such a
+translation is \textit{discrete}, meaning that it occurs in distinct
+``hops'' of some minimal distance. So, for example, the while the
+following patterns have minimal discrete translations, 
+\[
+2 examples (USE LETTERS)
+\]
+this pattern
+\[
+nonexample
+\]
+does not, and hence will not technically be considered a frieze
+pattern. To be completely explicit: 
+\begin{center}
+\textbf{All frieze patterns have symmetry through some horizontal translation.}
+\end{center}
+\begin{dfn}\index{minimal translation cell}
+A \textbf{minimal translation cell} is the smallest slice of a frieze pattern that will produce the entire frieze pattern through horizontal translations.
+\end{dfn}
+
+\begin{war}
+The minimal translation cell of a frieze pattern is not unique! Consider
+\[
+image
+\]
+both
+\[
+2-egs
+\]
+are minimal translation cells.
+\end{war} 
+
+
+
+\subsection*{Horizontal Reflections}\index{horizontal reflections}
+
+Frieze patterns can have symmetry though \textit{horizontal reflections}:
+\[
+\includegraphics{../graphics/fphoriz.pdf}
+\]
+Some frieze patterns have symmetry though horizontal reflections, while
+others don't.
+\begin{ques} Can you identify the frieze patterns below with symmetry though horizontal reflections?
+\[
+6 egs some with horiz/vert sym.
+\]
+\end{ques}
+
+\begin{war}
+Always remember: A horizontal reflection reflects across a vertical line!
+\end{war}
+
+
+
+\subsection*{Vertical Reflections}\index{vertical reflections}
+
+
+Frieze patterns can have symmetry though \textit{vertical reflections}:
+\[
+\includegraphics{../graphics/fpvertical.pdf}
+\]
+
+\begin{ques} Can you identify the frieze patterns below with symmetry though vertical reflections?
+\[
+6 egs some with horiz/vert sym.
+\]
+\end{ques}
+
+\begin{war}
+Always remember: A vertical reflection reflects across a horizontal
+line!
+\end{war}
+
+
+
+
+\subsection*{Glide Reflections}\index{glide reflections}
+
+Frieze patterns can have symmetry though \textit{glide reflections}:
+\[
+\includegraphics{../graphics/fpglide.pdf}
+\]
+
+\begin{ques} Can you identify the frieze patterns below with symmetry though glide reflections?
+\[
+6 egs some with horiz/vert sym.
+\]
+\end{ques}
+
+\begin{ques}
+If a frieze pattern has symmetry through translations and vertical
+reflections, must it have symmetry through glide reflections?
+\end{ques}
+\QM
+
+
+
+
+\subsection*{Rotations}\index{rotations}
+
+Finally, frieze patterns can have symmetry through $180^\circ$
+rotations.
+\[
+\includegraphics{../graphics/fprot.pdf}
+\]
+
+\begin{ques}
+Can you identify the frieze patterns below that have symmetry through $180^\circ$ rotations? 
+\[
+6 egs
+\]
+\end{ques}
+
+\begin{ques}
+Suppose you have a frieze pattern with symmetry though both glide
+reflections and $180^\circ$ rotations. Must this pattern also have
+symmetry through horizontal reflections?
+\end{ques}
+\QM
+
+
+
+\newpage
+
+\subsection*{Problems for Section \thesection}\hrule\vspace{1ex}
+\begin{enumerate}
+\item Explain what it means for a frieze pattern to have symmetry
+  through horizontal translations. Feel free to draw pictures to help out.
+\item Explain what it means for a frieze pattern to have symmetry
+  through horizontal reflections. Feel free to draw pictures to help out.
+\item Explain what it means for a frieze pattern to have symmetry
+  through vertical reflections. Feel free to draw pictures to help out.
+\item Explain what it means for a frieze pattern to have symmetry
+  through glide reflections. Feel free to draw pictures to help out.
+\item Explain what it means for a frieze pattern to have symmetry
+  through $180^\circ$ rotations. Feel free to draw pictures to help out.
+\item Draw a frieze pattern that exhibits symmetry through horizontal
+  translations and identify $3$ different minimal translation cells.
+\item Draw a frieze pattern that exhibits symmetry through horizontal
+  translations and glide reflections, but does not have symmetry
+  through any other transformation. Be sure to identify a minimal
+  translational cell.
+\item Draw a frieze pattern that exhibits symmetry through horizontal
+  translations and horizontal reflections, but does not have symmetry
+  through any other transformation. Be sure to identify a minimal translational
+  cell.
+\item Draw a frieze pattern that exhibits symmetry through horizontal
+  translations and $180^\circ$ rotations, but does not have symmetry
+  through any other transformation. Be sure to identify a minimal
+  translational cell.
+\item Draw a frieze pattern that exhibits symmetry through horizontal
+  translations, vertical reflections, and glide reflections, but does
+  not have symmetry through any other transformation. Be sure to
+  identify a minimal translational cell.
+\item Draw a frieze pattern that exhibits symmetry through horizontal
+  translations, horizontal reflections, glide reflections, and
+  $180^\circ$ rotations, but does not have symmetry through any other
+  transformation. Be sure to identify a minimal translational cell.
+\item Draw a frieze pattern that exhibits symmetry through horizontal
+  translations, horizontal reflections, vertical reflections, glide
+  reflections, and $180^\circ$ rotations. Be sure to identify a
+  minimal translational cell.
+\item Consider the following frieze pattern:
+\[
+image
+\]
+Explicitly write down the matrices for the symmetries of this
+pattern. Explain your reasoning.
+\item Consider the following frieze pattern:
+\[
+image
+\]
+Explicitly write down the matrices for the symmetries of this
+pattern. Explain your reasoning.
+\item Consider the following frieze pattern:
+\[
+image
+\]
+Explicitly write down the matrices for the symmetries of this
+pattern. Explain your reasoning.
+\item Consider the following frieze pattern:
+\[
+image
+\]
+Explicitly write down the matrices for the symmetries of this
+pattern. Explain your reasoning.
+\item Consider the following frieze pattern:
+\[
+image
+\]
+Explicitly write down the matrices for the symmetries of this
+pattern. Explain your reasoning.
+\item Consider the following frieze pattern:
+\[
+image
+\]
+Explicitly write down the matrices for the symmetries of this
+pattern. Explain your reasoning.
+\item Consider the following frieze pattern:
+\[
+image
+\]
+Explicitly write down the matrices for the symmetries of this
+pattern. Explain your reasoning.
+\item Can you exhibit a frieze pattern with 
+symmetry through $180^\circ$ rotations but not through glide reflections?
+If so, present such a pattern and identify a minimal translation
+cell. If not, explain why not.
+\item Can you exhibit a frieze pattern with 
+symmetry through horizontal reflections but not through glide reflections?
+If so, present such a pattern and identify a minimal translation
+cell. If not, explain why not.
+\item Can you exhibit a frieze pattern with 
+symmetry through vertical reflections but not through glide reflections?
+If so, present such a pattern and identify a minimal translation
+cell. If not, explain why not.
+\item Can you exhibit a frieze pattern with 
+symmetry through horizontal reflections and $180^\circ$ rotations but not through glide reflections?
+If so, present such a pattern and identify a minimal translation
+cell. If not, explain why not.
+
+
+\end{enumerate}
+
+\newpage
+
+
+
+
+
+
+
+\section{Groups---Old and New}
+
+\subsection{Old Friends}
+
+
+We've already seen some groups. Now we're going to do something
+that humans do really well, we're going to give them names.
+
+\subsection*{Groups of Rotations}
+
+Consider any regular $n$-gon. We'll let $\R_n$ be the group of
+rotations of this $n$-gon. As an example, let $n=3$. As we've seen
+before, if we let $\mat{R} = \mat{R}_{120}$, then 
+\[
+\{\mat{I}, \mat{R}, \mat{R}^2\}
+\]
+forms a group. 
+
+\begin{ques}
+What are the elements of $\R_4$? What about $\R_n$?
+\end{ques}
+\QM
+
+\subsection*{Groups of Reflections}
+
+Consider any regular $n$-gon. We'll let $\F_n$ be the group of all
+reflections of this $n$-gon. So for a regular $3$-gon, we have
+\[
+\includegraphics{../graphics/fpsymTri.pdf}
+\]
+where $\mat{F} = \mat{F}_{x = 0}$, $\mat{F}' = \mat{F}_{y =
+  \frac{1}{\sqrt{3}}x}$, and $\mat{F}'' = \mat{F}_{y =
+  \frac{-1}{\sqrt{3}}x}$. Let's write out the group table and see what
+we get, I've left it mostly blank. You can do this yourself
+(seriously!):
+
+
+\[
+{
+\renewcommand{\arraystretch}{1.5}
+\begin{array}{| c || c | c | c |c | c | c |}
+\hline
+\circ & \mat{I} & \mat{F} & \mat{F}'  & \mat{F}'' & \mat{F} \mat{F}' &  \mat{F} \mat{F}''  \\ \hline \hline
+\mat{I} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &  \rule[7mm]{13mm}{0mm}\\ \hline
+\mat{F} &\rule[7mm]{13mm}{0mm} & & & & &  \\ \hline
+\mat{F}' &\rule[7mm]{13mm}{0mm} & & & & &  \\ \hline
+\mat{F}'' &\rule[7mm]{13mm}{0mm} & & & & &  \\ \hline
+\mat{F}\mat{F}' &\rule[7mm]{13mm}{0mm} & & & & &  \\ \hline
+\mat{F}\mat{F}'' &\rule[7mm]{13mm}{0mm} & & & & &  \\ \hline
+\end{array}}
+\]
+
+Checking with the definition of a group, we see that 
+\[
+\F_3 = \{ \mat{I}, \mat{F}, \mat{F}', \mat{F}'', \mat{F}\mat{F}',\mat{F}\mat{F}''\}
+\]
+is indeed a group!
+
+\begin{ques}
+How many elements does $\F_n$ have?
+\end{ques}
+\QM
+
+
+
+\subsection*{Symmetry Groups}
+
+We have a special name for the complete symmetry group of a regular
+$n$-gon:
+
+\begin{dfn} The \textbf{dihedral group}\index{dihedral
+  group}, denoted $\D_n$, is the group of symmetries of a regular
+  $n$-gon.
+\end{dfn}
+
+\begin{ques}
+How many symmetries does a regular $n$-gon have?
+\end{ques}
+\QM
+
+
+
+
+\subsection{New Friends}
+
+
+Not only can we make groups from the symmetries of regular $n$-gons,
+but we can also make group tables from the symmetries of frieze
+patterns. These groups are called \textit{frieze groups}.\index{frieze groups}
+
+
+\subsection*{The Groups $\boldsymbol{\Zt}$ and $\boldsymbol{\Zg}$}
+
+Consider the following frieze pattern:
+\[
+\includegraphics{../graphics/fptransGP.pdf}
+\]
+This pattern only has symmetry though horizontal translations. Let
+$\mat{T}$ represent a translation of the minimal translation cell shown to the right. Then $\mat{T}^{-1}$ is a translation of the minimal translation cell to the left. From this we see that 
+\[
+\mat{T}\mat{T}^{-1} = \mat{I}.
+\]
+So we (meaning you!) can start to write out the partial group table:
+\[
+{
+\renewcommand{\arraystretch}{1.5}
+\begin{array}{| c || c | c | c |c | c | c | c|}
+\hline
+\circ & \cdots & \mat{T}^{-2} & \mat{T}^{-1}  & \mat{I} & \mat{T} &  \mat{T}^2  & \cdots \\ \hline \hline
+\cdots &\cdots & \cdots & \cdots  & \cdots & \cdots &  \cdots &  \cdots\\ \hline
+\mat{T}^{-2} & \cdots &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &  \rule[7mm]{13mm}{0mm} &  \cdots\\ \hline
+\mat{T}^{-1} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{I} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{T} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{T}^2 & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\cdots & \cdots & \cdots  &\cdots &\cdots &\cdots &\cdots & \cdots \\ \hline
+\end{array}}
+\]
+We'll denote this group by:
+\[\index{$\Zt$@ZT}
+\Zt = \{\dots, \mat{T}^{-3}, \mat{T}^{-2},\mat{T}^{-1}, \mat{I}, \mat{T},\mat{T}^2,\mat{T}^3, \dots\}
+\]
+
+
+Now consider the following frieze pattern:
+\[
+\includegraphics{../graphics/fpglideGP.pdf}
+\]
+This pattern only has symmetry though horizontal translations and
+glide reflections. However, a minimal translation cell for this frieze pattern is
+\[
+\includegraphics{../graphics/fpglideMinTransCell.pdf}
+\]
+We'll let $\mat{T}$ represent the translation of this cell to the
+right. On the other hand, a smaller piece of the frieze pattern will
+generate the entire pattern though glide reflections.  If we let
+$\mat{G}$ represent this glide reflection to the right, we see that
+\[
+\mat{G}\mat{G}^{-1} = \mat{I} \qquad\text{and}\qquad\mat{G}\mat{G} = \mat{T}.
+\]
+So we (meaning you!) can start to write out the partial group table:
+\[
+{
+\renewcommand{\arraystretch}{1.5}
+\begin{array}{| c || c | c | c |c | c | c | c|}
+\hline
+\circ & \cdots & \mat{G}^{-2} & \mat{G}^{-1}  & \mat{I} & \mat{G} &  \mat{G}^2  & \cdots \\ \hline \hline
+\cdots &\cdots & \cdots & \cdots  & \cdots & \cdots &  \cdots &  \cdots\\ \hline
+\mat{G}^{-2} & \cdots &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &  \rule[7mm]{13mm}{0mm} &  \cdots\\ \hline
+\mat{G}^{-1} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{I} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G}^2 & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\cdots & \cdots & \cdots  &\cdots &\cdots &\cdots &\cdots & \cdots \\ \hline
+\end{array}}
+\]
+We'll denote this group by:
+\[\index{$\Zg$@ZG}
+\Zg = \{\dots, \mat{G}^{-3}, \mat{G}^{-2},\mat{G}^{-1}, \mat{I}, \mat{G},\mat{G}^2,\mat{G}^3, \dots\}
+\]
+
+
+\begin{ques}
+What is the connection between the group tables for $\Zt$ and $\Zg$?
+\end{ques}
+\QM
+
+\subsection*{The Group $\boldsymbol{\Zgf}$}
+
+Consider the frieze pattern:
+\[
+\includegraphics{../graphics/fpverticalGP.pdf}
+\]
+This pattern only has symmetry though horizontal translations, glide
+reflections, and vertical reflections. I claim that each of these
+symmetries can be expressed as the combination of a horizontal
+translation $\mat{T}$ and a vertical reflection $\mat{F}$. Then the
+glide reflection is given by $\mat{T}\mat{F}$.
+
+\begin{ques} Is $\mat{T}\mat{F} = \mat{F}\mat{T}$?
+\end{ques}
+\QM
+
+Again, we (meaning you!) can start to write out the partial group table:
+
+\fbox{TABLE IS NOT DONE!!!}
+\[
+{
+\renewcommand{\arraystretch}{1.5}
+\begin{array}{| c || c | c | c |c | c | c | c|}
+\hline
+\circ & \cdots & \mat{G}^{-2} & \mat{G}^{-1}  & \mat{I} & \mat{G} &  \mat{G}^2  & \cdots \\ \hline \hline
+\cdots &\cdots & \cdots & \cdots  & \cdots & \cdots &  \cdots &  \cdots\\ \hline
+\mat{G}^{-2} & \cdots &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &  \rule[7mm]{13mm}{0mm} &  \cdots\\ \hline
+\mat{G}^{-1} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{I} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G}^2 & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\cdots & \cdots & \cdots  &\cdots &\cdots &\cdots &\cdots & \cdots \\ \hline
+\end{array}}
+\]
+We'll denote this group by \index{$\Zgf$@ZGF} $\Zgf$.
+
+\begin{ques}
+An arbitrary element of $\Zt$ looks like $\mat{T}^n$. An arbitrary
+element of $\Zg$ looks like $\mat{G}^n$. What does an arbitrary element
+of $\Zgf$ look like?
+\end{ques}
+\QM
+
+
+
+
+\subsection*{The Groups $\boldsymbol{\Ztf}$, $\boldsymbol{\Ztr}$, and $\boldsymbol{\Zgr}$}
+
+
+
+
+
+
+
+
+Consider the frieze pattern:
+\[
+\includegraphics{../graphics/fphorizGP.pdf}
+\]
+This pattern only has symmetry though horizontal translations and
+horizontal reflections. Let $\mat{T}$ be the horizontal translation and $\mat{F}$ be the horizontal reflection. 
+\begin{ques} Is $\mat{T}\mat{F} = \mat{F}\mat{T}$?
+\end{ques}
+\QM
+
+Again, we (meaning you!) can start to write out the partial group table:
+
+\fbox{TABLE IS NOT DONE!!!}
+\[
+{
+\renewcommand{\arraystretch}{1.5}
+\begin{array}{| c || c | c | c |c | c | c | c|}
+\hline
+\circ & \cdots & \mat{G}^{-2} & \mat{G}^{-1}  & \mat{I} & \mat{G} &  \mat{G}^2  & \cdots \\ \hline \hline
+\cdots &\cdots & \cdots & \cdots  & \cdots & \cdots &  \cdots &  \cdots\\ \hline
+\mat{G}^{-2} & \cdots &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &  \rule[7mm]{13mm}{0mm} &  \cdots\\ \hline
+\mat{G}^{-1} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{I} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G}^2 & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\cdots & \cdots & \cdots  &\cdots &\cdots &\cdots &\cdots & \cdots \\ \hline
+\end{array}}
+\]
+We'll denote this group by \index{$\Ztf$@ZTF} $\Ztf$.
+
+\begin{ques}
+An arbitrary element of $\Zt$ looks like $\mat{T}^n$. An arbitrary
+element of $\Zg$ looks like $\mat{G}^n$. What does an arbitrary element
+of $\Ztf$ look like?
+\end{ques}
+\QM
+
+Consider the frieze pattern:
+\[
+\includegraphics{../graphics/fprotGP.pdf}
+\]
+This pattern only has symmetry though horizontal translations and
+$180^\circ$ rotations. Let $\mat{T}$ be the horizontal translation and
+$\mat{R}$ be the $180^\circ$ rotation.
+\begin{ques} Is $\mat{T}\mat{R} = \mat{R}\mat{T}$?
+\end{ques}
+\QM
+
+Again, we (meaning you!) can start to write out the partial group table:
+
+\fbox{TABLE IS NOT DONE!!!}
+\[
+{
+\renewcommand{\arraystretch}{1.5}
+\begin{array}{| c || c | c | c |c | c | c | c|}
+\hline
+\circ & \cdots & \mat{G}^{-2} & \mat{G}^{-1}  & \mat{I} & \mat{G} &  \mat{G}^2  & \cdots \\ \hline \hline
+\cdots &\cdots & \cdots & \cdots  & \cdots & \cdots &  \cdots &  \cdots\\ \hline
+\mat{G}^{-2} & \cdots &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &  \rule[7mm]{13mm}{0mm} &  \cdots\\ \hline
+\mat{G}^{-1} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{I} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G}^2 & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\cdots & \cdots & \cdots  &\cdots &\cdots &\cdots &\cdots & \cdots \\ \hline
+\end{array}}
+\]
+We'll denote this group by \index{$\Ztr$@ZTF} $\Ztr$.
+
+\begin{ques}
+An arbitrary element of $\Zt$ looks like $\mat{T}^n$. An arbitrary
+element of $\Zg$ looks like $\mat{G}^n$. What does an arbitrary element
+of $\Ztr$ look like?
+\end{ques}
+\QM
+
+
+Consider the frieze pattern:
+\[
+\includegraphics{../graphics/fpzgrGP.pdf}
+\]
+This pattern only has symmetry though horizontal translations, glide
+reflections, horizontal reflections, and $180^\circ$ rotations. Let
+$\mat{T}$ be the horizontal translation, $\mat{G}$ be the glide
+reflection, $\mat{F}$ be the horizontal reflection, and $\mat{R}$ be
+the $180^\circ$ rotation.
+
+\begin{ques} 
+Can you express $\mat{T}$ and $\mat{F}$ entirely in terms of $\mat{G}$
+and $\mat{R}$?
+\end{ques}
+\QM
+\begin{ques} Is $\mat{G}\mat{R} = \mat{R}\mat{G}$?
+\end{ques}
+\QM
+
+Again, we (meaning you!) can start to write out the partial group
+table:
+
+\fbox{TABLE IS NOT DONE!!!}
+\[
+{
+\renewcommand{\arraystretch}{1.5}
+\begin{array}{| c || c | c | c |c | c | c | c|}
+\hline
+\circ & \cdots & \mat{G}^{-2} & \mat{G}^{-1}  & \mat{I} & \mat{G} &  \mat{G}^2  & \cdots \\ \hline \hline
+\cdots &\cdots & \cdots & \cdots  & \cdots & \cdots &  \cdots &  \cdots\\ \hline
+\mat{G}^{-2} & \cdots &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &  \rule[7mm]{13mm}{0mm} &  \cdots\\ \hline
+\mat{G}^{-1} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{I} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G}^2 & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\cdots & \cdots & \cdots  &\cdots &\cdots &\cdots &\cdots & \cdots \\ \hline
+\end{array}}
+\]
+We'll denote this group by \index{$\Zgr$@ZGF} $\Zgr$.
+
+\begin{ques}
+An arbitrary element of $\Zt$ looks like $\mat{T}^n$. An arbitrary
+element of $\Zg$ looks like $\mat{G}^n$. What does an arbitrary element
+of $\Zgr$ look like?
+\end{ques}
+\QM
+
+
+
+\subsection*{The Group $\boldsymbol{\Ztff}$}
+
+Consider the frieze pattern:
+\[
+\includegraphics{../graphics/fpverticalGP.pdf}
+\]
+This pattern only has symmetry though horizontal translations, glide
+reflections, and vertical reflections. I claim that each of these
+symmetries can be expressed as the combination of a horizontal
+translation $\mat{T}$ and a vertical reflection $\mat{F}$. Then the
+glide reflection is given by $\mat{T}\mat{F}$.
+
+\begin{ques} Is $\mat{T}\mat{F} = \mat{F}\mat{T}$?
+\end{ques}
+\QM
+
+Again, we (meaning you!) can start to write out the partial group table:
+
+\fbox{TABLE IS NOT DONE!!!}
+\[
+{
+\renewcommand{\arraystretch}{1.5}
+\begin{array}{| c || c | c | c |c | c | c | c|}
+\hline
+\circ & \cdots & \mat{G}^{-2} & \mat{G}^{-1}  & \mat{I} & \mat{G} &  \mat{G}^2  & \cdots \\ \hline \hline
+\cdots &\cdots & \cdots & \cdots  & \cdots & \cdots &  \cdots &  \cdots\\ \hline
+\mat{G}^{-2} & \cdots &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &\rule[7mm]{13mm}{0mm} &  \rule[7mm]{13mm}{0mm} &  \cdots\\ \hline
+\mat{G}^{-1} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{I} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G} & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\mat{G}^2 & \cdots &\rule[7mm]{13mm}{0mm} & & & & & \cdots \\ \hline
+\cdots & \cdots & \cdots  &\cdots &\cdots &\cdots &\cdots & \cdots \\ \hline
+\end{array}}
+\]
+We'll denote this group by \index{$\Zgf$@ZGF} $\Zgf$.
+
+\begin{ques}
+An arbitrary element of $\Zt$ looks like $\mat{T}^n$. An arbitrary
+element of $\Zg$ looks like $\mat{G}^n$. What does an arbitrary element
+of $\Zgf$ look like?
+\end{ques}
+\QM
+
+
+
+
+
+\subsection{Some Observations and Thoughts}
+
+
+Look back on the partial group tables that you have constructed. What
+patterns do you notice?
+
+\fbox{hint at isomorphism}
+
+
+\newpage
+
+\subsection*{Problems for Section \thesection}\hrule\vspace{1ex}
+\begin{enumerate}
+\item Draw a pattern that is described by the following group.
+\item Which of the following frieze patterns only has translational
+  symmetries?
+\end{enumerate}
+
+\newpage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{There Can Be Only Seven}
+
+
+!!Classification and other applications!!
+
+!!Rigorous dfn of Frieze group/frieze pattern. See p. 400 of Continuous sym!!

@@ -1,0 +1,45 @@
+\newpage
+\section{Pieces of Star Stuff}
+
+In this activity, we'll investigate how many stars $\star{n}{s}$ can
+be drawn without lifting your pencil. Call this number $\phi(n)$.
+
+\begin{prob}
+Compute $\phi(2)$, $\phi(3)$, $\phi(4)$, $\phi(5)$, $\phi(6)$,
+$\phi(7)$, and $\phi(8)$. 
+\end{prob}
+
+\begin{prob}
+Given any value of $n$, can you give a simple description of how to
+compute $\phi(n)$ \textit{without} drawing any stars?
+\end{prob}
+
+\begin{prob}
+Use your description to compute $\phi(11)$, $\phi(101)$, $\phi(5051)$.
+\end{prob}
+
+\begin{prob}
+If $p$ is prime, what is $\phi(p)$? Explain your reasoning.
+\end{prob}
+
+\begin{prob}
+Compute $\phi(8)$, $\phi(16)$, $\phi(32)$, and $\phi(64)$.
+\end{prob}
+
+\begin{prob}
+Compute $\phi(9)$, $\phi(27)$, $\phi(81)$, and $\phi(243)$.
+\end{prob}
+
+\begin{prob}
+Compute $\phi(5)$, $\phi(25)$, $\phi(125)$, and $\phi(625)$.
+\end{prob}
+
+\begin{prob}
+If $p$ is prime, what is $\phi(p^n)$? Explain your reasoning.
+\end{prob}
+
+\begin{prob}
+Make a chart of values for $\phi(n)$ for $n = 1,\dots, 20$. Can you
+make a conjecture as to how $\phi(a)$ and $\phi(b)$ relate to
+$\phi(ab)$?
+\end{prob}

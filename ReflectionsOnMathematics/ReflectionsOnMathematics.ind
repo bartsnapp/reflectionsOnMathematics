@@ -1,0 +1,150 @@
+\begin{theindex}
+
+  \item \ae ther, 57
+  \item altitude, 37
+
+  \indexspace
+
+  \item bees, 55
+
+  \indexspace
+
+  \item Cavalieri's principle, 105
+  \item centroid, 37, 40
+  \item circle, 32
+  \item circumcenter, 38, 39
+  \item circumcircle, 38, 40
+  \item congruent
+    \subitem angles, 42
+    \subitem segments, 42
+    \subitem triangles, 42
+  \item control-point, 74
+  \item convex, 56
+  \item convex polyhedra
+    \subitem regular, 56
+
+  \indexspace
+
+  \item diagonal reflection, 5
+  \item dual
+    \subitem polyhedron, 60
+
+  \indexspace
+
+  \item envelope of   tangents, 74
+  \item equilateral triangle, 34
+  \item Escher, M.C., 49
+
+  \indexspace
+
+  \item folding and tracing
+    \subitem bisecting a segment, 30
+    \subitem bisecting an angle, 31
+    \subitem copying an angle, 30
+    \subitem equilateral triangle, 33
+    \subitem intersection of a line and a circle, 32
+    \subitem intersection of two circles, 33
+    \subitem parallel through a point, 31
+    \subitem perpendicular through a point, 31
+    \subitem transferring a segment, 30
+
+  \indexspace
+
+  \item group, 22
+  \item group table, 23
+
+  \indexspace
+
+  \item horizontal reflection, 5
+  \item hypercube, 65
+
+  \indexspace
+
+  \item identity matrix, 14
+  \item incenter, 38, 40
+  \item incircle, 38, 40
+  \item interior angles, 94
+  \item isometry, 2
+
+  \indexspace
+
+  \item Kepler, Johannes, 50
+
+  \indexspace
+
+  \item Louie Llama, 3, 5, 7, 93
+
+  \indexspace
+
+  \item matrix, 1
+    \subitem multiplication, 2
+  \item median, 37
+  \item Morley's Theorem, 34
+
+  \indexspace
+
+  \item net of a polyhedron, 103
+  \item node, 74
+  \item $\star{n}{s}$, 70
+
+  \indexspace
+
+  \item orbit, 116
+  \item orthocenter, 37, 39
+
+  \indexspace
+
+  \item parabola, 74
+  \item pinwheel tiling, 99
+  \item Platonic Solids, 56, 58
+  \item polyhedra
+    \subitem convex regular, 56
+  \item polyhedron, 56
+  \item Pythagorean Theorem, 52
+  \item Pythagorean Triple, 45
+  \item The Pythagoreans, 56
+
+  \indexspace
+
+  \item quadrilateral
+    \subitem tessellation of, 50
+
+  \indexspace
+
+  \item reflection, 4
+    \subitem diagonal, 5
+    \subitem horizontal, 5
+    \subitem vertical, 5
+  \item regular
+    \subitem polygon, 49
+    \subitem polyhedron, 56
+    \subitem tessellation, 49
+  \item rep-tile, 97
+  \item rotation, 7
+
+  \indexspace
+
+  \item similar triangles, 42, 43
+  \item stars, 68
+  \item Sugarbear, 61
+  \item symmetry, 21, 22
+  \item symmetry   group, 25
+  \item symmetry of scale, 98
+
+  \indexspace
+
+  \item tessellation, 49
+    \subitem any quadrilateral, 50
+    \subitem regular, 49
+    \subitem triangles, 50
+  \item translation, 3
+  \item triangle
+    \subitem sum of interior angles, 94
+  \item triangular dipyramid, 57
+  \item trisecting the angle, 34
+
+  \indexspace
+
+  \item vertical reflection, 5
+
+\end{theindex}

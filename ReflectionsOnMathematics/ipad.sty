@@ -1,0 +1,28 @@
+\NeedsTeXFormat{LaTeX2e}% LaTeX 2.09 can't be used (nor non-LaTeX)
+[1994/12/01]% LaTeX date must be December 1994 or later
+\ProvidesPackage{ipad}[2011/06/15 v0.5]
+\ProcessOptions\relax
+\RequirePackage{xstring}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% in htlatex, includegraphics should replace a PDF by an SVG
+\makeatletter
+
+\@ifpackageloaded{tex4ht}{%
+\renewcommand{\includegraphics}[1]{\StrSubstitute{#1}{.pdf}{.svg}[\filename]%
+\HCode{<img src="}\StrSubstitute{\filename}{../}{}\HCode{">}}
+}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% in htlatex, interactive should add a script environment
+
+\@ifpackageloaded{tex4ht}{%
+  \newcommand{\interactive}[2][]{\HCode{<script type="text/javascript"
+      src="}#1\HCode{">}\HCode{</script>}}
+}{
+  \newcommand{\interactive}[2][]{#2}
+}
+
+\makeatother
+
+\endinput

@@ -1,0 +1,28 @@
+\addcontentsline{toc}{chapter}{References and Further Reading}
+\begin{thebibliography}{99}
+
+\bibitem{abbott} E.A.\ Abbott. \emph{Flatland: A Romance of Many Dimensions}. Penguin Classics, 1998.
+
+%\bibitem{BarkerHowe} W.\ Barker and R.\ Howe. \emph{Continuous Symmetry: From Euclid to Klein}. American Mathematical Society, 2007.
+
+\bibitem{brown} R.G.\ Brown. \emph{Transformational Geometry}. Ginn and Company, 1973.
+
+%\bibitem{conway} J.H.\ Conway and R.K.\ Guy. \emph{The Book of Numbers}. Springer, 1995.
+
+\bibitem{coxeter} H.S.M.\ Coxeter. \emph{Introduction to Geometry}. Wiley Classics Library, 1989.
+
+\bibitem{jeger} M.\ Jeger. \emph{Transformation Geometry}. John Wiley\&Sons, 1966.
+
+\bibitem{macgillavry} C.H.\ MacGillavry. \emph{Fantasy\&Symmetry: The Periodic Drawings of M.C.\ Escher.} Harry N.\ Abrams Inc, 1965.
+
+\bibitem{mason} J.\ Mason with L.\ Burton and K.\ Stacey. \emph{Thinking Mathematically---Revised Edition}. Prentice Hall, 1985.
+
+\bibitem{row} T.S.\ Row. \emph{Geometric Exercises in Paper Folding.} The Open Court Publishing Company, 1901.
+
+\bibitem{sagan} C.\ Sagan. \emph{Cosmos.} Random House, 2002.
+
+\end{thebibliography}
+
+
+\addcontentsline{toc}{chapter}{Index}
+\printindex
