@@ -97,7 +97,7 @@ dx + ey + f\\
 \end{ques}
 
 In this chapter we are going to study a special type of functions,
-called \textit{isometries}. These are function that preserves
+called \textit{isometries}. These are functions that preserve
 distances. Let's see what we mean by this:
 
 \begin{dfn} 
@@ -116,10 +116,9 @@ How do you compute the distance between two points again?
 \end{ques}
 \QM
 
-We're going to see that several ideas in geometry, specifically
-translations, reflections, and rotations which all seem very
-different, are actually all isometries. Hence, we will
-be thinking of these concepts as matrices.
+We're going to see that several ideas in geometry which all seem very different are actually all isometries.  Specifically, we'll look at
+translations, reflections, and rotations.  Since they are isometries, 
+we will be thinking of these concepts as matrices.
 
 
 
@@ -222,7 +221,7 @@ function that maps a point $\vec{p}$ to a point $\mat{F}_\l
 \end{dfn}
 
 You might be saying, ``Huh?''  It's not as hard as it looks.  Check
-out this picture of the situation, again Louie Llama\index{Louie Llama} 
+out this picture of the situation; again Louie Llama\index{Louie Llama} 
 will help us out:
 \[
 \includegraphics{../graphics/refIdeaEg.pdf}
@@ -1119,7 +1118,7 @@ I'll take this one. Note that
 0 &  0 & 1
 \end{bmatrix} 
 \end{align*}
-OK looks good, but you, the reader, are going to have to check the
+OK, looks good.  But you, the reader, are going to have to check the
 above computation yourself.
 
 
@@ -1285,7 +1284,7 @@ rotation $\mat{R}_{120}$ does not change the picture.
 
 
 An object can have symmetry \textit{through translations} if it
-extends infinitely in some direction, in this case imagine the pattern
+extends infinitely in some direction.  Imagine the pattern
 below extending infinitely both to the left and the right:
 \[
 \includegraphics{../graphics/fpGraphEx1.pdf}
@@ -1294,12 +1293,12 @@ Now the translation $\mat{T}_{(4,0)}$ does not change the
 picture---note, we assumed that each square above is 1 unit.
 
 \begin{ques}
-What other translation don't change the picture?
+What other translations don't change the picture?
 \end{ques}
 \QM
 
 
-An object can have symmetry \textit{through dilations}, here we need
+An object can have symmetry \textit{through dilations}.  Here we need
 to imagine the entire plane filled with tiles as below:
 \[
 \includegraphics{../graphics/sierpinskiCarpet.pdf}
@@ -1332,11 +1331,11 @@ will call $\mathcal{G}$ such that:
 \item There is an associative operation (in our case matrix multiplication).
 \item The set is closed under this operation (the product of any two
   matrices in the set is also in the set).
-\item There exists an identity $\mat{I}\in \mathcal{G}$ such that for all $\mat{M}\in \mathcal{G}$, 
+\item There exists an identity $\mat{I}$ in $\mathcal{G}$ such that for all $\mat{M}$ in $\mathcal{G}$, 
 \[
 \mat{I}\mat{M}=\mat{M}\mat{I} = \mat{M}.
 \]
-\item For all $M\in \mathcal{G}$ there is an inverse $\mat{M}^{-1}\in \mathcal{G}$ such that 
+\item For all $M$ in $\mathcal{G}$ there is an inverse $\mat{M}^{-1}$ in $\mathcal{G}$ such that 
 \[
 \mat{M} \mat{M}^{-1}= \mat{M}^{-1}\mat{M}= \mat{I}.
 \]
@@ -1347,7 +1346,7 @@ will call $\mathcal{G}$ such that:
 \subsection{Groups of Rotations}
 
 
-Let's see a group. Here we have an equilateral triangle centered at
+Let's see an example of a group. Here we have an equilateral triangle centered at
 the origin of the $(x,y)$-plane:
 \[
 \includegraphics{../graphics/symTri.pdf}
@@ -1394,7 +1393,7 @@ left-hand sides. Setting $\mat{R} = \mat{R}_{120}$ we have:
 \end{array}}
 \]
 Since $\mat{R}^3 = \mat{I}$, we need only take our table to
-$\mat{R}^2$. At this point we can write out the complete table:
+$\mat{R}^2$. In each entry of the table, we write the element we get by multiplying the row heading by the column heading.  (Since matrix multiplication isn't commutative, this is important!)  Now we can write out the complete table:
 \[
 {
 \renewcommand{\arraystretch}{1.2}
@@ -1499,7 +1498,7 @@ symmetries forms a group called the \index{symmetry
 \[
 \includegraphics{../graphics/symTriRef.pdf}
 \]
-Let's see the group table, note we'll let $\mat{R} = \mat{R}_{120}$
+Let's see the group table.  Remember that we let $\mat{R} = \mat{R}_{120}$
 and $\mat{F} = \mat{F}_{\l}$:
 
 \[
@@ -1518,9 +1517,9 @@ and $\mat{F} = \mat{F}_{\l}$:
 \]
 
 This table shows every symmetry of the triangle, including the
-identify $\mat{I}$. By comparing the rows and columns of the group
-table, you can see that every element has an inverse. This combined
-with the fact that the matrix multiplication is associative shows that
+identity $\mat{I}$. By comparing the rows and columns of the group
+table, you can see that every element has an inverse. Combined
+with the fact that the matrix multiplication is associative, this shows that
 the symmetries of the triangle,
 \[
 \{ \mat{I},\mat{R},\mat{R}^2,\mat{F},\mat{F} \mat{R},  \mat{F} \mat{R}^2\}
@@ -1528,7 +1527,7 @@ the symmetries of the triangle,
 form a group.
 
 \begin{ques} 
-Can you express the symmetries of squares in terms of reflections
+Can you express the symmetries of the square in terms of reflections
 and rotations? What does the group table look like for the symmetry
 group of the square?
 \end{ques}
@@ -1556,9 +1555,9 @@ group of the square?
 %\item Give the group table for the reflections of a regular hexagon.
 %\item Give the group table for the symmetries of a square.
 %\item Give the group table for the symmetries of a regular hexagon.
-\item How many consecutive rotations are needed to return the vertexes
+\item How many consecutive rotations are needed to return the vertices
   of a square to their original position? Provide a drawing to justify
-  your answer, labeling the vertexes.
+  your answer, labeling the vertices.
 \item How many degrees are in one-fourth of a complete rotation of the
   square?  Explain your answer.
 \item How many degrees are in one-sixth of a complete rotation of the
@@ -1567,15 +1566,15 @@ group of the square?
   figure, and a 6-sided figure.  Why do we not include the rotation
   group for the pentagon in this section?  If we did, how many degrees
   would be in one-fifth of a complete rotation?
-\item With notation used in this section, draw pictures representing
-  the action of the following isometries $\mat{F}_\l$, $\mat{R}$,
+\item With the notation used in this section, draw pictures representing
+  the action of each of $\mat{F}_\l$, $\mat{R}$,
   $\mat{R}\mat{F}_\l$ and $\mat{F}_\l\mat{R}$ on the equilateral
   triangle.
 \item Consider a square centered at the origin. Draw pictures
   representing the action of $\mat{F}_{y=0}$, $\mat{R}_{90}$,
   $\mat{R}_{90}\mat{F}_{y=0}$, and $\mat{F}_{y=0} \mat{R}_{90}$ on
   this square.
-\item Consider a hexagon centered at the origin. Draw pictures
+\item Consider a regular hexagon centered at the origin. Draw pictures
   representing the action of $\mat{F}_{x=0}$, $\mat{R}_{60}$,
   $\mat{R}_{60}\mat{F}_{x=0}$, and $\mat{F}_{x=0} \mat{R}_{60}$ on
   this hexagon.
@@ -1592,7 +1591,7 @@ group of the square?
   identity, such that their composition is $\mat{R}_{180}$. Explain
   and illustrate your answer.
 \item Find two symmetries of the square, neither of which is the
-  identity, such that their composition is $\mat{F}_{\l}$. Explain
+  identity, such that their composition is $\mat{F}_{\l}$.  The line $\l$ is a vertical line through the center of the square. Explain
   and illustrate your answer.
 \item Find two symmetries of the square, neither of which is the
   identity, such that their composition is $\mat{R}_{270}$. Explain
