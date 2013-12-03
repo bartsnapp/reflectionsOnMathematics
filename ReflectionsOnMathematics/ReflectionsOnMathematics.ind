@@ -9,7 +9,7 @@
 
   \indexspace
 
-  \item Cavalieri's principle, 105
+  \item Cavalieri's principle, 108
   \item centroid, 37, 40
   \item circle, 32
   \item circumcenter, 38, 39
@@ -47,6 +47,7 @@
     \subitem parallel through a point, 31
     \subitem perpendicular through a point, 31
     \subitem transferring a segment, 30
+  \item fractal, 100
 
   \indexspace
 
@@ -63,7 +64,7 @@
   \item identity matrix, 14
   \item incenter, 38, 40
   \item incircle, 38, 40
-  \item interior angles, 94
+  \item interior angles, 95
   \item isometry, 2
 
   \indexspace
@@ -72,7 +73,7 @@
 
   \indexspace
 
-  \item Louie Llama, 3, 5, 7, 93
+  \item Louie Llama, 3, 5, 7, 94
 
   \indexspace
 
@@ -83,19 +84,19 @@
 
   \indexspace
 
-  \item net of a polyhedron, 103
+  \item net of a polyhedron, 106
   \item node, 74
   \item $\star{n}{s}$, 70
 
   \indexspace
 
-  \item orbit, 116
+  \item orbit, 119
   \item orthocenter, 37, 39
 
   \indexspace
 
   \item parabola, 74
-  \item pinwheel tiling, 99
+  \item pinwheel tiling, 102
   \item Platonic Solids, 56, 58
   \item polyhedra
     \subitem convex regular, 56
@@ -119,7 +120,7 @@
     \subitem polygon, 49
     \subitem polyhedron, 56
     \subitem tessellation, 49
-  \item rep-tile, 97
+  \item rep-tile, 98
   \item rotation, 7
 
   \indexspace
@@ -129,7 +130,7 @@
   \item Sugarbear, 61
   \item symmetry, 21, 22
   \item symmetry   group, 25
-  \item symmetry of scale, 98
+  \item symmetry of scale, 99
 
   \indexspace
 
@@ -137,9 +138,10 @@
     \subitem any quadrilateral, 50
     \subitem regular, 49
     \subitem triangles, 50
+  \item tesseract, 65
   \item translation, 3
   \item triangle
-    \subitem sum of interior angles, 94
+    \subitem sum of interior angles, 95
   \item triangular dipyramid, 57
   \item trisecting the angle, 34
 
