@@ -33,7 +33,7 @@ Here is a rep-4-tile called the Sphinx.  As a gesture of friendship, I've done t
     \clip (-.3,-.3) rectangle (48+.3,{32*sqrt(3)/2+.3}); % Clips the picture...
     %\pgftransformcm{sqrt(3)/2}{.5}{0}{1}{\pgfpoint{0cm}{0cm}}
     \pgftransformcm{1}{0}{.5}{sqrt(3)/2}{\pgfpoint{0cm}{0cm}}
-    \filldraw[fill=gray, fill opacity=0.3, draw=gray,ultra thick] (0,16) -- (24,16) -- (24,0) -- (16,8) -- (8,8) -- cycle;
+    \filldraw[fill=gray, fill opacity=0.3, draw=gray,ultra thick,line join=bevel] (0,16) -- (24,16) -- (24,0) -- (16,8) -- (8,8) -- cycle;
     \draw[ultra thick, gray,line join=bevel]  (0,0) --    (24,0) -- (16, 8) -- (8,8) -- (0,16) -- cycle;
     \draw[ultra thick, gray,line join=bevel] (24,0) -- (48,0) -- (40, 8)-- (32,8) -- (24,16) -- cycle;
     \draw[ultra thick, gray,line join=bevel] (40,8) -- (16,32) -- (16,16);% -- (24,0);
