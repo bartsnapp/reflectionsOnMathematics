@@ -29,17 +29,18 @@ Here is a triangle.  We've seen that it is a rep-4-tile.  Complete four iteratio
 \begin{prob}
 Here is a rep-4-tile called the Sphinx.  As a gesture of friendship, I've done the first iteration for you.  Continue the process by doing three more iterations.
 \[
-  \begin{tikzpicture}[scale=0.4,rotate=90]%% adopted from http://www.texample.net/tikz/examples/lattice-points/
-    \clip (-.3,-.3) rectangle ({48*sqrt(3)/2+.3},24+.3); % Clips the picture...
-    \pgftransformcm{sqrt(3)/2}{.5}{0}{1}{\pgfpoint{0cm}{0cm}}
-           \filldraw[fill=gray, fill opacity=0.3, draw=black,ultra thick,line join=bevel] (8,8) -- (32,-4) -- (24,-12) -- (20,-4) -- (12,0) -- (8,8) -- cycle;
-           \draw[ultra thick, black,line join=bevel]  (0,0) --    (24,-12) -- (20, -4) -- (12,0) -- (8,8) -- (0,0) -- cycle;
-           \draw[ultra thick, black,line join=bevel] (24,-12) -- (48,-24) -- (44, -16) -- (36,-12) -- (32,-4) -- (24,-12) -- cycle;
-           \draw[ultra thick, black,line join=bevel] (48,-24) -- (32,8) -- (24,0);
+  \begin{tikzpicture}[scale=0.35,rotate=90]%% adopted from http://www.texample.net/tikz/examples/lattice-points/
+    \clip (-.3,-.3) rectangle (48+.3,{32*sqrt(3)/2+.3}); % Clips the picture...
+    %\pgftransformcm{sqrt(3)/2}{.5}{0}{1}{\pgfpoint{0cm}{0cm}}
+    \pgftransformcm{1}{0}{.5}{sqrt(3)/2}{\pgfpoint{0cm}{0cm}}
+    \filldraw[fill=gray, fill opacity=0.3, draw=gray,ultra thick] (0,16) -- (24,16) -- (24,0) -- (16,8) -- (8,8) -- cycle;
+    \draw[ultra thick, gray,line join=bevel]  (0,0) --    (24,0) -- (16, 8) -- (8,8) -- (0,16) -- cycle;
+    \draw[ultra thick, gray,line join=bevel] (24,0) -- (48,0) -- (40, 8)-- (32,8) -- (24,16) -- cycle;
+    \draw[ultra thick, gray,line join=bevel] (40,8) -- (16,32) -- (16,16);% -- (24,0);
           
-    \foreach \x in {0,1,...,48}{% Two indices running over each
-      \foreach \y in {-26,-25,...,24}{% node on the grid we have drawn 
-        \node[draw,circle,inner sep=.3pt,fill] at (\x,\y) {};
+    \foreach \x in {-16,-15,...,48}{% Two indices running over each
+      \foreach \y in {0,1,...,32}{% node on the grid we have drawn 
+        \node[draw,circle,inner sep=.5pt,fill] at (\x,\y) {};
             % Places a dot at those points
       }
     }
